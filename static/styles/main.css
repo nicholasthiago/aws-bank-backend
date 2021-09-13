@@ -1,0 +1,41 @@
+body {
+	color: #DDD;
+	background: #222;
+}
+
+body * {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.content form {
+	gap: 8px;
+	margin: 12px 0;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.content > table {
+	border: none;
+}
+
+.content > table tr th {
+	padding: 4px 8px;
+	min-width: 96px;
+	border: 1px solid #444;
+}
+
+.content > table tr td {
+	padding: 8px 16px;
+	min-width: 96px;
+	text-transform: capitalize;
+	border: 1px solid #444;
+}
