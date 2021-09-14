@@ -10,7 +10,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 app.config['Access-Control-Allow-Origin'] = '*'
 app.config['Access-Control-Allow-Credentials'] = 'true'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://nicholas@localhost:9000/aws_bank_user"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://nicholas@localhost:9000/devel_db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
